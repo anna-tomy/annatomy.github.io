@@ -1,0 +1,148 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://wallpapercave.com/wp/wp9589084.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #5A4A42;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: rgba(201, 216, 213, 0.6);
+  padding: 20px;
+  color: #453026;
+  border-bottom: 3px solid #5A4A42;
+}
+
+nav a {
+  text-decoration: none;
+  color: #453026;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+nav a.blink {
+  animation: blink .75s infinite;
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+main {
+  padding: 20px;
+  background-color: rgba(232, 247, 242, 0.6);
+  color: #453026;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.categories h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.genre-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.genre-btn {
+  background-color: rgba(201, 216, 213, 1);
+  color: #453026;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.genre-btn:hover {
+  background-color: #8B9F77;
+}
+
+.countdown {
+  background-color: rgba(201, 216, 213, 1);
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  color: #453026;
+}
+
+#countdown {
+  font-size: 24px;
+  font-weight: bold;
+  color: #453026;
+}
+
+form {
+  background-color: #E8F7F2;
+  padding: 20px;
+  border-radius: 10px;
+  display: block;
+  text-align: left;
+  width: 100%;
+  max-width: 400px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #8B9F77;
+  border-radius: 5px;
+  background-color: #E8F7F2;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #C9D8D5;
+  color: #453026;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  width: 100%;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #8B9F77;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #C9D8D5;
+  color: #E8F7F2;
+  font-size: 20px;
+}
